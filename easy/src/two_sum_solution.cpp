@@ -1,5 +1,5 @@
 
-#include <include/two_sum_solution.h>
+#include <include/two_sum_solution.hpp>
 
 namespace easy {
 

@@ -5,6 +5,8 @@
 #include <cmath>
 #include <unordered_map>
 
+// The link to this problem can be found here: https://leetcode.com/problems/two-sum/description/
+
 namespace easy {
     class TwoSum {
     public:
