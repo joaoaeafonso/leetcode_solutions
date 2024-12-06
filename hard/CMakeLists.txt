@@ -2,9 +2,9 @@
 add_library(
         hard
 
-        include/find_median_sorted_arrays.hpp
+        include/find_median_sorted_arrays_solution.hpp
 
-        src/find_median_sorted_arrays.cpp
+        src/find_median_sorted_arrays_solution.cpp
 
 )
 
