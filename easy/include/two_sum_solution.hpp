@@ -10,7 +10,7 @@
 namespace easy {
     class TwoSum {
     public:
-        [[nodiscard]] std::vector<int> twoSum(std::vector<int>& nums, int target) const;
+        [[nodiscard]] std::vector<int> twoSum(const std::vector<int>& nums, int target) const;
 
     private:
         int m_lowerLimitValue = std::pow(-10, 9);
