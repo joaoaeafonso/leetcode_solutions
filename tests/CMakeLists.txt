@@ -14,5 +14,5 @@ FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
 
-add_executable(runUnitTests test_two_sum_solution.cpp ${test_SRCS})
-target_link_libraries(runUnitTests gtest gmock easy)
+add_executable(runUnitTests test_two_sum_solution.cpp test_max_int_num_range_solution.cpp ${test_SRCS})
+target_link_libraries(runUnitTests gtest gmock easy medium)

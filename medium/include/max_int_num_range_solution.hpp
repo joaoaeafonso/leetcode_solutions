@@ -11,7 +11,9 @@ namespace medium {
 
     class MaxIntNumRangeSolution {
         public:
-            [[nodiscard]] int maxCount(std::vector<int>& banned, int n, int maxSum);
+            MaxIntNumRangeSolution() = default;
+
+            [[nodiscard]] static int maxCount(const std::vector<int>& banned, int n, int maxSum);
     };
 
 }

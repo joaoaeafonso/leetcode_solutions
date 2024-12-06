@@ -5,7 +5,7 @@
 
 namespace medium {
 
-    int maxCount(std::vector<int>& banned, const int n, const int maxSum) {
+    int MaxIntNumRangeSolution::maxCount(const std::vector<int>& banned, const int n, const int maxSum) {
         const std::unordered_set bannedSet(banned.begin(), banned.end());
         int sum = 0, count = 0;
 
@@ -24,5 +24,4 @@ namespace medium {
 
         return count;
     }
-
 }
