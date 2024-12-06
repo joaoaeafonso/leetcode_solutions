@@ -4,7 +4,7 @@
 
 using namespace medium;
 
-class MaxIntNumRangeSolutionTest: public MaxIntNumRangeSolution, public ::testing::Test {
+class MaxIntNumRangeSolutionTest: public ::testing::Test {
     protected:
         std::shared_ptr<MaxIntNumRangeSolution> m_solutionPtr;
 };
