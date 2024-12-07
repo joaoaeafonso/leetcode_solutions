@@ -20,7 +20,8 @@ add_executable(runUnitTests
         test_max_int_num_range_solution.cpp
         test_add_two_numbers_list_nodes.cpp
         test_length_of_longest_substring_solution.cpp
+        test_find_median_sorted_arrays_solution.cpp
 
         ${test_SRCS})
 
-target_link_libraries(runUnitTests gtest gmock easy medium)
+target_link_libraries(runUnitTests gtest gmock easy medium hard)
