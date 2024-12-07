@@ -21,6 +21,7 @@ add_executable(runUnitTests
         test_add_two_numbers_list_nodes.cpp
         test_length_of_longest_substring_solution.cpp
         test_find_median_sorted_arrays_solution.cpp
+        test_minimum_limit_balls_in_bag_solution.cpp
 
         ${test_SRCS})
 
