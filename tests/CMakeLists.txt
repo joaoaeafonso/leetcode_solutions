@@ -8,6 +8,7 @@ FetchContent_Declare(
         googletest
         URL https://github.com/google/googletest/archive/release-1.11.0.zip
 )
+
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
 FetchContent_MakeAvailable(googletest)
@@ -23,6 +24,7 @@ add_executable(runUnitTests
         test_find_median_sorted_arrays_solution.cpp
         test_minimum_limit_balls_in_bag_solution.cpp
         test_minimum_k_swaps_for_consecutive_ones_solution.cpp
+        test_roman_to_integer_solution.cpp
 
         ${test_SRCS})
 
