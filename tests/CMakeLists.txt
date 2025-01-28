@@ -25,6 +25,7 @@ add_executable(runUnitTests
         test_minimum_limit_balls_in_bag_solution.cpp
         test_minimum_k_swaps_for_consecutive_ones_solution.cpp
         test_roman_to_integer_solution.cpp
+        test_task_scheduler_solution.cpp
 
         ${test_SRCS})
 
